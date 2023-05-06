@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0px 10px;
+    background-color: rgb(99, 119, 110);
+}
+
+.title {
+    color: white;
+    font-size: 120;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+#table-column {
+    flex: 1;
+    border: solid;
+    border-radius: 25px;
+
+}
+
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(192, 212, 188);
+}
+
+.diagram-title {
+    color: rgb(107, 77, 77);
+    padding: 5px;
+    margin: 20px;
+}
+
+.diagram {
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.legend__desc {
+    margin: 10px;
+}
